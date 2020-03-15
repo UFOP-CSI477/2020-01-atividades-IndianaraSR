@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TecnoWeb - Cliente</title>
+    </head>
+    
+    <body>
+        <h1>Cliente</h1>
+        <a href="pagina_inicial.html">Página Inicial</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="servicos.html">Serviços</a>
+        <a href="equipamentos.html">Equipamentos</a> 
+        <a href="#">Cliente</a>
+
+        <br><hr><br>
+
+        <form>
+            <b>Informações do Cliente</b>
+            <br><br>
+
+            <select>
+                <option value="" disabled selected>Selecione uma Opção</option>
+                <option value="pessoa_fisica">Pessoa Física</option>
+                <option value="pessoa_juridica">Pessoa Jurídica</option>
+
+            </select>
+            <br><br>
+
+            <label for="nome">Nome</label>
+            <input id="nome" type="text">
+
+            <label for="dn">Data de Nascimento</label>
+            <input id="dn" type="date">
+            <br>
+
+            <label for="email">e-mail</label>
+            <input id="email" type="text">
+            <br><br>
+
+            <b>Telefone para Contato</b>
+            <br>
+
+            <input type="checkbox" id="celular">
+            <label>Celular</label>
+            <input type="text">
+            
+
+            <input type="checkbox" id="fixo">
+            <label>Telefone Fixo</label>
+            <input type="text">
+            <br><br>
+
+            <b>Sexo</b>
+            <br>
+
+            <input id="f" type="radio" name="sexo">
+            <label for="f">Feminino</label>
+            <br>
+
+            <input id="m" type="radio" name="sexo">
+            <label for="m">Masculino</label>
+            <br>
+
+            <input id="pi" type="radio" name="sexo">
+            <label for="pi">Prefiro não Informar</label>
+            <br><br>
+
+            <hr><b>Endereço</b><br>
+            <label>Estado</label>
+            <input id="estado" type="text">
+            <br>
+
+            <label>Cidade</label>
+            <input id="cidade" type="text">
+            <br>
+                        
+            <label for="rua">Rua/Avenida</label>
+            <input id="rua" type="text">
+            <br>
+
+            <label for="numero">Número</label>
+            <input id="numero" type="number" min=0>
+
+            <label id="complemento">Complemento</label>
+            <input id="complemento" type="number" min=0>
+            <br>
+
+            <label>Bairro</label>
+            <input id="bairro" type="text">
+            <br><br>
+
+            <input type="submit" value="Cadastrar">
+            
+
+        </form>
+        
+    </body>
+</html>

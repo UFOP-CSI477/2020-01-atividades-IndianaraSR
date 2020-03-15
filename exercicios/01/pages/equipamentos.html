@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TecnoWeb - Equipamentos</title>
+
+    </head>
+
+    <body>
+        <h1>Equipamentos</h1>
+        <a href="pagina_inicial.html">Página Inicial</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="servicos.html">Serviços</a>
+        <a href="#">Equipamentos</a> 
+        <a href="cliente.html">Cliente</a>
+
+        <br><hr><br>
+
+        <form>
+            <b>Informações do Equipamento <br> Fornecedor</b>
+            <br><br>
+
+            <label for="nome">Nome Fornecedor</label>
+            <input id="nome" type="text">
+            <br>
+
+            <label>e-mail</label>
+            <input id="e-mail" type="text"><br>
+
+            <label>Equipamento</label>
+            <input id="equip" type="text">
+
+            <select>
+                <option value="" disabled selected>Modelo</option>
+                <option value="modelo1">modelo 01</option>
+                <option value="modelo2">modelo 02</option>
+                
+            </select>
+
+            <select>
+                <option value="" disabled selected>Ano</option>
+                <option value="ano1">2020</option>
+                <option value="ano2">2019</option>
+                <option value="ano3">2018</option>
+                
+            </select>
+            <br>
+
+            <label for="qtd">Quantidade</label>
+            <input id="qtd" type="number" min="0">
+            <br>              
+
+            <label>Valor da Unidade</label>
+            <input id="valor-und" type="number" step="0.5" min="0">
+            <br><br>
+        
+            <input type="submit" value="Cadastrar Solicitação">
+        </form>
+
+    </body>
+
+</html>
